@@ -1,6 +1,6 @@
 # 🚀 Collaborating Guidelines & Workflows
 
-Welcome to the **HCMUT-Student-Hub** project! To ensure smooth collaboration, maintain code quality, and prevent conflicts, please read this guide CAREFULLY before actually contributing.
+Welcome to the **BK-Student-Hub** project! To ensure smooth collaboration, maintain code quality, and prevent conflicts, please read this guide CAREFULLY before actually contributing.
 
 ---
 
