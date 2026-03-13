@@ -104,20 +104,20 @@ section { margin-bottom: 100px; }
 
 /* TODO: Card icon */
 
-/* BK Market */
-.market-grid {
+/* * BK marketplace */
+.marketplace-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
-.market-card {
+.marketplace-card {
     background-color: var(--card-bg);
     padding: 40px;
     border-radius: var(--border-radius);
 }
 
-.market-right-col {
+.marketplace-right-col {
     display: flex;
     flex-direction: column;
     gap: 10px;
