@@ -157,6 +157,21 @@ After you have finished working on your personal branch, you need to open a PR b
 5. The reviewer will inspect your code. If approved, they will click **Merge pull request** to combine your work into `main`.
 6. Once merged successfully, please delete your feature branch to keep the repo organized.
 
+### Step 6: Delete your branch after finishing working
+
+To keep the repo organized, please delete it after finishing working with your branch.
+
+```bash
+# 1. Switch back to the main branch
+git switch main
+
+# 2. Delete the branch on your local machine
+git branch -d <type>/<your-branch-name>
+
+# 3. Delete your branch on Github
+git push origin --delete <type>/<your-branch-name>
+```
+
 ---
 
 ## IV. Branch Naming Convention
