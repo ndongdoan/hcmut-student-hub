@@ -68,6 +68,11 @@ body {
     text-align: center;
 }
 
+.btn-register {
+    text-decoration: none; font-weight: 600; font-size: 2.5rem; background-color: var(--primary-blue); color: var(--white); padding: 10px 20px; border-radius: 11px;
+    margin-top: 50px; display: inline-block;
+}
+
 /* TODO: .hero-circle */
 
 .hero h1 { color: var(--primary-blue); font-size: 3.5rem; margin-bottom: 15px; }
@@ -104,20 +109,20 @@ section { margin-bottom: 100px; }
 
 /* TODO: Card icon */
 
-/* * BK marketplace */
-.marketplace-grid {
+/* BK Market */
+.market-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
-.marketplace-card {
+.market-card {
     background-color: var(--card-bg);
     padding: 40px;
     border-radius: var(--border-radius);
 }
 
-.marketplace-right-col {
+.market-right-col {
     display: flex;
     flex-direction: column;
     gap: 10px;
