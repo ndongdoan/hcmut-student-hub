@@ -71,7 +71,50 @@ body {
 /* TODO: .hero-circle */
 
 .hero h1 { color: var(--primary-blue); font-size: 3.5rem; margin-bottom: 15px; }
-.hero p { font-size: 1.2rem; color: var(--text-dark); font-weight: 650;}
+.hero p { font-size: 1.2rem; color: var(--text-dark); font-weight: 650; }
+
+.hero-cta {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.hero-btn-register {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 650;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(35, 108, 243, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-btn-register:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(35, 108, 243, 0.4);
+}
+
+p.hero-login-link {
+    color: var(--text-gray); 
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.hero-login-link a {
+    color: var(--primary-blue); 
+    text-decoration: none;
+    font-weight: 600;
+    transition: opacity 0.3s ease;
+}
+
+.hero-login-link a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
 
 /* -- HEADINGS -- */
 section { margin-bottom: 100px; }
