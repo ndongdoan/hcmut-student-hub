@@ -29,7 +29,8 @@ body {
 .navbar {
     background-color: var(--white);
     padding: 15px 0;
-    margin: 20px 40px;
+    max-width: 80%;
+    margin: 20px auto;
     border-radius: 25px;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
     position: sticky;
@@ -61,12 +62,17 @@ body {
 }
 
 .hero {
-    height: 60vh;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    min-height: 100vh;
+    margin-top: -120px;
+    padding-top: 90px;
+    overflow: hidden;
 }
+
 
 /* TODO: .hero-circle */
 
